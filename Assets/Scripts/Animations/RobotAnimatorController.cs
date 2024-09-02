@@ -18,7 +18,7 @@ public class RobotAnimatorController : MonoBehaviour
 	void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-		//punch = GetComponent<SpriteRenderer>();
+		_spriteRenderer.flipX = false;
     }
 
     // Update is called once per frame
