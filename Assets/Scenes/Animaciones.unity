@@ -165,7 +165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 239531172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856218959}
   - component: {fileID: 856218960}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoot1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862775264}
   - component: {fileID: 862775265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,6 +371,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 239531172}
     m_Modifications:
+    - target: {fileID: 8369383531756756908, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8369383532742148375, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1797664
@@ -414,6 +418,14 @@ PrefabInstance:
     - target: {fileID: 8369383532742148377, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Banner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369383532742148377, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644774137612344972, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -566,7 +578,7 @@ GameObject:
   - component: {fileID: 1074659414}
   - component: {fileID: 1074659416}
   - component: {fileID: 1074659415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PunchIzq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +685,7 @@ GameObject:
   - component: {fileID: 1082641368}
   - component: {fileID: 1082641366}
   - component: {fileID: 1082641369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerRobot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,6 +811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Bucket 01
       objectReference: {fileID: 0}
+    - target: {fileID: 1775790501429231184, guid: 75e84fbdb66ab5647a06b786c6662307, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1775790501429231186, guid: 75e84fbdb66ab5647a06b786c6662307, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34315372
@@ -860,7 +876,7 @@ GameObject:
   - component: {fileID: 1210629317}
   - component: {fileID: 1210629316}
   - component: {fileID: 1210629315}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Robot_Punch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,6 +983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Grass 07
       objectReference: {fileID: 0}
+    - target: {fileID: 3564026850829729313, guid: 91aebb278b095f843a6d4213d7df47fd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3564026850829729314, guid: 91aebb278b095f843a6d4213d7df47fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.950606
@@ -1027,7 +1047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398958623}
   - component: {fileID: 1398958624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoot1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,6 +1133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Grass 06
       objectReference: {fileID: 0}
+    - target: {fileID: 3564026850829729313, guid: ed925410cd097664ea4b9e3e758f02a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3564026850829729314, guid: ed925410cd097664ea4b9e3e758f02a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.22172475
@@ -1175,6 +1199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Grass 03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564026850829729313, guid: 4da9b9761848a1848868ed8a0c18f051, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3564026850829729314, guid: 4da9b9761848a1848868ed8a0c18f051, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2235134
@@ -1236,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: 2018365450437254144, guid: 1509360826d6bb34587310ad4949fdd5, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018365450437254144, guid: 1509360826d6bb34587310ad4949fdd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2018365450437254147, guid: 1509360826d6bb34587310ad4949fdd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1436,6 +1468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Grass 06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564026850829729313, guid: ed925410cd097664ea4b9e3e758f02a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3564026850829729314, guid: ed925410cd097664ea4b9e3e758f02a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2961369
@@ -1497,6 +1533,10 @@ PrefabInstance:
     - target: {fileID: 3564026850829729313, guid: 70e4f80265d902443a6249697d613d81, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Grass 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564026850829729313, guid: 70e4f80265d902443a6249697d613d81, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564026850829729314, guid: 70e4f80265d902443a6249697d613d81, type: 3}
       propertyPath: m_LocalPosition.x

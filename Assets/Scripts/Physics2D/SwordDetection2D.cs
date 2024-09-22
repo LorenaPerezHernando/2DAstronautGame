@@ -7,7 +7,7 @@ public class SwordDetection2D : MonoBehaviour
 	#endregion
 
 	#region Fields
-	[SerializeField] private float froceBase = 100;
+	[SerializeField] private float forceBase = 100;
 	#endregion
 
 	#region Unity Callbacks
@@ -31,7 +31,7 @@ public class SwordDetection2D : MonoBehaviour
 			//Destino menos origen nos da el vector dirección
 			Vector2 forceDirection = collision.transform.position - transform.position; //Objeto position - espada position
 			float distance = (2 - Vector2.Distance(collision.transform.position, transform.position));
-			collision.GetComponent<Rigidbody2D>().AddForce(forceDirection * distance * froceBase);
+			collision.GetComponent<Rigidbody2D>().AddForce(forceDirection  * distance * forceBase);
 		}
 
 	}

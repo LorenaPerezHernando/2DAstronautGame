@@ -27,14 +27,12 @@ public class Trigger2DDetection : MonoBehaviour
 		//if (collision.gameObject.layer == 7)//Player enter in zone
 		if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
 			GetComponent<Animator>().SetBool("IsOpened", true);
-
 	}
 
 	private void OnTriggerExit2D(Collider2D collision)
 	{
 		if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
 			GetComponent<Animator>().SetBool("IsOpened", false);
-
 	}
 	#endregion
 
