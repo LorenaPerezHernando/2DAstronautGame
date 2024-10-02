@@ -46,6 +46,10 @@ public class ItemSpawner : MonoBehaviour
         //Add Rotation Force
         int torqueForceZ = Random.Range(-70, 70);
         newItem.GetComponent<Rigidbody2D>().AddTorque(torqueForceZ);
+
+        //Dificulty Progression
+        if(_maxspawnTime > _minspawnTime)
+        _maxspawnTime -= 0.1f;
     }
 
     private void ResetTime()

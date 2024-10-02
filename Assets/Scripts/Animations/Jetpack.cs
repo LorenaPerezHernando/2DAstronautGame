@@ -12,14 +12,24 @@ public class Jetpack : MonoBehaviour
     }
     
     #region Properties
-    public float Energy { get; set; }
+    public float Energy {
+        get
+        {
+            return _energy;
+        }
+        set
+        {
+            _energy = Mathf.Clamp(value, 0, _maxEnergy);
+        }
+    }
     public bool Flying { get; set; }
 
 
     #endregion Properties
 
     #region Fields
-    private Rigidbody2D _target;
+    private Rigidbody2D _targetRB;
+    [SerializeField] private float _energy;
     [SerializeField] private float _maxEnergy;
     [SerializeField] private float _EnergyFlyingRatio;
     [SerializeField] private float _horizontalForce;
@@ -32,7 +42,7 @@ public class Jetpack : MonoBehaviour
 
     private void Awake()
     {
-        _target = GetComponent<Rigidbody2D>();
+        _targetRB = GetComponent<Rigidbody2D>();
     }
     void Start()
     {
@@ -46,6 +56,11 @@ public class Jetpack : MonoBehaviour
             DoFly();
             
         }
+
+        //El valor absoluto le quitamos el signo a la velocidad si es negativa
+        //Si es menor que 0.1, consideramos que estamos parados y cargamos
+        if(Mathf.Abs(_targetRB.velocity.y) < 0.1f)
+            Regenerate();
     }
 
     #endregion Unity Callbacks
@@ -65,7 +80,7 @@ public class Jetpack : MonoBehaviour
     {
         Energy += _energyRegerationRatio;
     }
-    public void Regenerate (float energy)
+    public void AddEnergy (float energy)
     {
         Energy += energy; 
     }
@@ -78,11 +93,11 @@ public class Jetpack : MonoBehaviour
         }
         if (flyDirection == Direction.Left) 
         {
-            _target.AddForce(Vector2.left * _horizontalForce);
+            _targetRB.AddForce(Vector2.left * _horizontalForce);
         }
         else
         {
-            _target.AddForce(Vector2.right * _horizontalForce);
+            _targetRB.AddForce(Vector2.right * _horizontalForce);
         }
     }
     #endregion Public Methods
@@ -91,7 +106,7 @@ public class Jetpack : MonoBehaviour
     {
         if (Energy > 0)
         {
-            _target.AddForce(Vector2.up * _flyForce);
+            _targetRB.AddForce(Vector2.up * _flyForce);
             Energy -= _EnergyFlyingRatio;
         }
         else
