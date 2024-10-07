@@ -172,13 +172,17 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 452500094978568479, guid: bfdc39d9ba679124ca0e165a625159a7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7794584114470481801, guid: bfdc39d9ba679124ca0e165a625159a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3516584865686806697}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3227128290242462596, guid: bfdc39d9ba679124ca0e165a625159a7, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 5064604223154093043}
     - targetCorrespondingSourceObject: {fileID: 3227128290242462596, guid: bfdc39d9ba679124ca0e165a625159a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6544504509108435958}
@@ -188,6 +192,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3227128290242462596, guid: bfdc39d9ba679124ca0e165a625159a7, type: 3}
   m_PrefabInstance: {fileID: 3034588394015224016}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5064604223154093043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492042474186404692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3c640d2dee1f54aa05fc41df67d39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Type>k__BackingField: 1
+  _particles: {fileID: 378407179651199548, guid: 00dfe774259169845bde4be9d0e5c969, type: 3}
 --- !u!58 &6544504509108435958
 CircleCollider2D:
   m_ObjectHideFlags: 0

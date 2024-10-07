@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InGameScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/2D Proyect/Practica2D.unity
+    guid: 0d88648c809d61b43946c097de92d385
+  - enabled: 1
+    path: Assets/Scenes/2D Proyect/MainMenu.unity
+    guid: e20fe48472100ba41a4bf2816f7581ae
   m_configObjects: {}

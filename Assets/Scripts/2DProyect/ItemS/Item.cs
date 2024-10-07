@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+
+public class Item : MonoBehaviour, IRecolectable
 {
     #region Contants
     const float NoSe_Damage = 20;
@@ -28,6 +30,7 @@ public class Item : MonoBehaviour
     #endregion
 
     #region Fields
+    [SerializeField] private GameObject _particles; 
     #endregion
 
     #region Callbacks
@@ -56,11 +59,22 @@ public class Item : MonoBehaviour
                     break;
 
             }
-            Destroy(gameObject);
+            
         }
     }
+
     #endregion
 
     #region Public Methods
+    public void Recolected()
+    {
+        CreateParticles();
+        Destroy(gameObject);
+    }
+
     #endregion
+    private void CreateParticles()
+    {
+        Instantiate(_particles, transform.position, Quaternion.identity);
+    }
 }
