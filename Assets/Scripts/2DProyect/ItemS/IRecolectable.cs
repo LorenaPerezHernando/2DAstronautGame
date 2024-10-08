@@ -4,6 +4,8 @@ using UnityEngine;
 
 public interface IRecolectable
 {
-    public void Recolected(); 
+    public void Recolected();
+
+    public IEnumerator DestroyAfterTime();
 
 }

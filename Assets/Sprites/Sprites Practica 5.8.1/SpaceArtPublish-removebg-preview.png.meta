@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: 0a9d5828b824ee74eacc316a59e9344a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66842e088c3ff7478786d62a5966c58
+      internalID: -1482948259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 215
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048a3e0dd8798084bbcfcbb7a6c4828b
+      internalID: -1638810560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 238
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25758ccc9ee2f444fa3ef260668f36d2
+      internalID: 1004862286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 237
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a48385eee01548bdcc26451fe8eb2
+      internalID: -901394939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 228
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85c6f1ffef9e64ba7e85db4e43571c
+      internalID: -1624941806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 196
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae4c697b55d03428bb6d146ec17c5e
+      internalID: 733975558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 204
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a451d595f44f447b5bdb23be7f3637
+      internalID: -1080851381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 219
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9322c4cc60cfd79479b8be9fbc2a37f9
+      internalID: 1895190043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 193
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e886bbd3376cba149b0038d6bde7967a
+      internalID: 1518485635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 204
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad907eefb13cbff4db4da1979e2859d0
+      internalID: -364019135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 167
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8edcee3c166c74b8756d417ff23153
+      internalID: 2106871013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 166
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1ff78335d85ec43880a58ead8fe260
+      internalID: 1732154036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 109
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094875d34e36c843ae7b0f28d7e3c55
+      internalID: -1672552486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 156
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee9cbfeac0b5e041ad9765a46edfb56
+      internalID: -639309560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 147
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca4d439abb56b4da6e64cdec8b733b
+      internalID: -1654976896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 156
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cc8523ddfbe1a46b8a88ab6cbaa2ac
+      internalID: -1257173134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 129
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f437b472c77c994397acb464ff42765
+      internalID: -979407495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 147
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29244af76f53d6a4f88a728c37fabd1a
+      internalID: 1955799284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 146
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a76c743814fff4899c87ab110e27e4
+      internalID: 1537498919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 106
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e4549c5c0a05b4c9bb56bacd03f928
+      internalID: 1147050581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 111
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaec89df72fe21844af7b4a4a1da3011
+      internalID: 866571067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 105
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba5bc9e61e9092419af5131fb521278
+      internalID: 240781144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 109
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71b197dc8918b459483ccb019deb87
+      internalID: -757222082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 109
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be56b4087ed832a438e49f2123adc6bc
+      internalID: 1598868445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 48
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6503c8f8646994eab2e170e6ca1bd4
+      internalID: -1198734182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceArtPublish-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 22
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87656fae0934ad34baf16a6286e39c19
+      internalID: 170607503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpaceArtPublish-removebg-preview_0: -1482948259
+      SpaceArtPublish-removebg-preview_1: -1638810560
+      SpaceArtPublish-removebg-preview_10: 2106871013
+      SpaceArtPublish-removebg-preview_11: 1732154036
+      SpaceArtPublish-removebg-preview_12: -1672552486
+      SpaceArtPublish-removebg-preview_13: -639309560
+      SpaceArtPublish-removebg-preview_14: -1654976896
+      SpaceArtPublish-removebg-preview_15: -1257173134
+      SpaceArtPublish-removebg-preview_16: -979407495
+      SpaceArtPublish-removebg-preview_17: 1955799284
+      SpaceArtPublish-removebg-preview_18: 1537498919
+      SpaceArtPublish-removebg-preview_19: 1147050581
+      SpaceArtPublish-removebg-preview_2: 1004862286
+      SpaceArtPublish-removebg-preview_20: 866571067
+      SpaceArtPublish-removebg-preview_21: 240781144
+      SpaceArtPublish-removebg-preview_22: -757222082
+      SpaceArtPublish-removebg-preview_23: 1598868445
+      SpaceArtPublish-removebg-preview_24: -1198734182
+      SpaceArtPublish-removebg-preview_25: 170607503
+      SpaceArtPublish-removebg-preview_3: -901394939
+      SpaceArtPublish-removebg-preview_4: -1624941806
+      SpaceArtPublish-removebg-preview_5: 733975558
+      SpaceArtPublish-removebg-preview_6: -1080851381
+      SpaceArtPublish-removebg-preview_7: 1895190043
+      SpaceArtPublish-removebg-preview_8: 1518485635
+      SpaceArtPublish-removebg-preview_9: -364019135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,7 +9,7 @@ public class ItemSpawner : MonoBehaviour
 
     [SerializeField] private List<Item> _spawnList;
     [SerializeField] private float _minspawnTime = 1;
-    [SerializeField] private float _maxspawnTime = 5;
+    public float _maxspawnTime = 5;
     private float _nextSpawnTime; 
 
      private float _cronoTime = 0;

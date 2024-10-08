@@ -77,4 +77,10 @@ public class Item : MonoBehaviour, IRecolectable
     {
         Instantiate(_particles, transform.position, Quaternion.identity);
     }
+
+    public IEnumerator DestroyAfterTime()
+    {
+        yield return new WaitForSeconds(10);
+        Destroy(gameObject);
+    }
 }

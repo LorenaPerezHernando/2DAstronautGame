@@ -36,6 +36,8 @@ public class Jetpack : MonoBehaviour
     [SerializeField] private float _flyForce;
     [SerializeField] private float _energyRegerationRatio;
 
+    private SpriteRenderer _sprite;
+
     #endregion Fields
 
     #region Unity Callbacks
@@ -43,6 +45,7 @@ public class Jetpack : MonoBehaviour
     private void Awake()
     {
         _targetRB = GetComponent<Rigidbody2D>();
+        _sprite = GetComponent<SpriteRenderer>();
     }
     void Start()
     {
@@ -94,10 +97,12 @@ public class Jetpack : MonoBehaviour
         if (flyDirection == Direction.Left) 
         {
             _targetRB.AddForce(Vector2.left * _horizontalForce);
+            _sprite.flipX = false; 
         }
         else
         {
             _targetRB.AddForce(Vector2.right * _horizontalForce);
+            _sprite.flipX = true; 
         }
     }
     #endregion Public Methods

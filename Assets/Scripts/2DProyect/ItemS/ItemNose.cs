@@ -9,7 +9,7 @@ public class ItemNose : Item
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
-            Recolected();
+            Destroy(gameObject);
         if (collision.gameObject.tag == "Player")
         {
             Jetpack jetpack = collision.gameObject.GetComponent<Jetpack>();
@@ -17,6 +17,8 @@ public class ItemNose : Item
             Recolected() ;
 
         }
+        DestroyAfterTime();
     }
+
     #endregion
 }
