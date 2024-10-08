@@ -28,5 +28,8 @@ public class InputController : MonoBehaviour
         }
         else
             _jetpack.StopFlying();
+
+        
+
     }
 }

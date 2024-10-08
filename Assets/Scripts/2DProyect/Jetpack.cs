@@ -16,10 +16,12 @@ public class Jetpack : MonoBehaviour
         get
         {
             return _energy;
+
         }
         set
         {
             _energy = Mathf.Clamp(value, 0, _maxEnergy);
+            
         }
     }
     public bool Flying { get; set; }
@@ -35,6 +37,7 @@ public class Jetpack : MonoBehaviour
     [SerializeField] private float _horizontalForce;
     [SerializeField] private float _flyForce;
     [SerializeField] private float _energyRegerationRatio;
+    [SerializeField] GameObject _fireParticleSys;
 
     private SpriteRenderer _sprite;
 
@@ -50,6 +53,7 @@ public class Jetpack : MonoBehaviour
     void Start()
     {
         Energy = _maxEnergy;
+        _fireParticleSys.SetActive(false); 
     }
 
     void FixedUpdate() //Pq le estamos añadiendo fuerzas 
@@ -64,6 +68,7 @@ public class Jetpack : MonoBehaviour
         //Si es menor que 0.1, consideramos que estamos parados y cargamos
         if(Mathf.Abs(_targetRB.velocity.y) < 0.1f)
             Regenerate();
+        
     }
 
     #endregion Unity Callbacks
@@ -78,14 +83,18 @@ public class Jetpack : MonoBehaviour
     public void StopFlying()
     {
         Flying = false;
+        _fireParticleSys.SetActive(false);
     }
     public void Regenerate()
     {
         Energy += _energyRegerationRatio;
+        
     }
     public void AddEnergy (float energy)
     {
-        Energy += energy; 
+        
+        Energy += energy;
+
     }
     public void FlyHorizontal(Direction flyDirection)
     {
@@ -113,8 +122,11 @@ public class Jetpack : MonoBehaviour
         {
             _targetRB.AddForce(Vector2.up * _flyForce);
             Energy -= _EnergyFlyingRatio;
+            _fireParticleSys.SetActive(true);
         }
         else
-            Flying = false; 
+            Flying = false;
+
+
     }
 }

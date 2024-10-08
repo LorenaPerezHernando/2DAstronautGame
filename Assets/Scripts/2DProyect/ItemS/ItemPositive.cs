@@ -24,9 +24,5 @@ public class ItemPositive : Item
     }
     #endregion
 
-    IEnumerator DestroyAfterTime()
-    {
-        yield return new WaitForSeconds(10);
-        Destroy(gameObject) ;
-    }
+   
 }

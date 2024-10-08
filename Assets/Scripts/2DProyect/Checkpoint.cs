@@ -20,8 +20,6 @@ public class Checkpoint : MonoBehaviour
         {
             _collider.isTrigger = false;
             gameObject.tag = "Ground";
-
-
         }              
     }
 
@@ -29,7 +27,12 @@ public class Checkpoint : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            _collider.isTrigger = true;
+
+            Vector3 playerPos = collision.transform.position;
+            Vector3 thisPos = transform.position;
+
+            if (playerPos.y < thisPos.y)
+                _collider.isTrigger = true;
         }
     }
 
