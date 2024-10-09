@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Ground
+  - CollectStar
   layers:
   - Default
   - TransparentFX

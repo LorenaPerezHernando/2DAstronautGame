@@ -22,13 +22,8 @@ public class Player : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
-
-
-        _anim.SetBool("Flying", _jetpack.Flying);
-        
+        _anim.SetBool("Flying", _jetpack.Flying);      
     }
 }

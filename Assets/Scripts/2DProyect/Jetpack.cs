@@ -25,6 +25,7 @@ public class Jetpack : MonoBehaviour
         }
     }
     public bool Flying { get; set; }
+    public int starsCollected;
 
 
     #endregion Properties
@@ -54,6 +55,7 @@ public class Jetpack : MonoBehaviour
     {
         Energy = _maxEnergy;
         _fireParticleSys.SetActive(false); 
+        starsCollected = 0;
     }
 
     void FixedUpdate() //Pq le estamos añadiendo fuerzas 
@@ -66,7 +68,7 @@ public class Jetpack : MonoBehaviour
 
         //El valor absoluto le quitamos el signo a la velocidad si es negativa
         //Si es menor que 0.1, consideramos que estamos parados y cargamos
-        if(Mathf.Abs(_targetRB.velocity.y) < 0.1f)
+        if(Mathf.Abs(_targetRB.velocity.y) < 0.1f && Input.GetAxis("Vertical") <= 0)
             Regenerate();
         
     }
@@ -127,6 +129,19 @@ public class Jetpack : MonoBehaviour
         else
             Flying = false;
 
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "CollectStar")
+        {
+
+            collision.GetComponent<AudioSource>().Play();
+            starsCollected++;
+            print("Audio Stars");
+            Destroy(collision.gameObject, 0.5f);
+        }
 
     }
 }
