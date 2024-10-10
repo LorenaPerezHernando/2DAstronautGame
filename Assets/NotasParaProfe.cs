@@ -14,6 +14,7 @@ public class NotasParaProfe : MonoBehaviour
      * Luces desde el player como si llevara una linterna 
      * 
      * Un Panel de final del recorrido con los stats de juego (Tiempo, y estrellas coleccionadas) 
+     *  Para que sea un juego de superarse a si mismo y intentar batir un nuevo record o coleccionar todas las estrellas 
      * 
      
      ESPERO QUE DISFRUTEN MUCHO JUGANDO =)

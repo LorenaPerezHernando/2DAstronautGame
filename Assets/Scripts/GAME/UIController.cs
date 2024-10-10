@@ -34,7 +34,7 @@ public class UIController : MonoBehaviour
         
         _altitudText.text = ((int)_jetpack.transform.position.y).ToString();
 
-        _finalStars.text = _starsCollected.text ;
+        _finalStars.text = _starsCollected.text + (" /38");
 
         if(_inputController.InGame) 
             _time += Time.deltaTime;
