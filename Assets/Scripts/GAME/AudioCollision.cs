@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioCollision : MonoBehaviour
+public class AudioCollision : MonoBehaviour 
 {
+    //Script en los prefabs plataformas para que suene cuando el player choca desde abajo 
     AudioSource _audioSource;
     void Awake()
     {

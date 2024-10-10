@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Jetpack : MonoBehaviour
 {
+    //Script en el player relacionado con el mov de subida y energia del jetpack
+    //Colleciona las estrellas y particle system de fuego
     public enum Direction
     {
         Left, 

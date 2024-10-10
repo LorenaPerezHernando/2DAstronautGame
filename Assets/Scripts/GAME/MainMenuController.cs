@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    //Script de la escena Main Menu
     [SerializeField] Button _startGameButton;
     [SerializeField] Button _exitGameButton;
 
@@ -24,5 +25,10 @@ public class MainMenuController : MonoBehaviour
     private void StartGame()
     {
         SceneManager.LoadScene("Practica2D");
+    }
+
+    public void MenuPrincipal()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

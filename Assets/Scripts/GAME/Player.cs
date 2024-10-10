@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
+    //Script en Player, animacion de su sprite
     #region Properties
 
     #endregion

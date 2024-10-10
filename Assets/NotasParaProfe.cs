@@ -13,10 +13,10 @@ public class NotasParaProfe : MonoBehaviour
      * Luces dinamicas y animaciones para las estrellas de decoracion y las que hay que coleccionar
      * Luces desde el player como si llevara una linterna 
      * 
-     * Un Panel de final del recorrido 
+     * Un Panel de final del recorrido con los stats de juego (Tiempo, y estrellas coleccionadas) 
      * 
      
-     ESPERO QUE DISFRUTEN MUCHOP JUGANDO =)
+     ESPERO QUE DISFRUTEN MUCHO JUGANDO =)
       
      */
 }
