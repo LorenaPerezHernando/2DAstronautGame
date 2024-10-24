@@ -71538,8 +71538,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 1
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.2609501, y: 3.1513, z: 0}
-    m_Extent: {x: 5.19935, y: 5.589, z: 0}
+    m_Center: {x: 0.25499988, y: 3.1534, z: 0}
+    m_Extent: {x: 5.1986, y: 5.5887, z: 0}
   m_PointLightInnerAngle: 35.999805
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 3.33
@@ -78136,7 +78136,7 @@ GameObject:
   - component: {fileID: 1173803297}
   - component: {fileID: 1173803296}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Grid Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78162,14 +78162,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173803295}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 143191749}
   - {fileID: 845833178}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1998654850}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1178369604
 PrefabInstance:
@@ -78679,8 +78679,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.053849995, y: 0.55515, z: 0}
-    m_Extent: {x: 1.36585, y: 1.0861499, z: 0}
+    m_Center: {x: 0.058449984, y: 0.56159997, z: 0}
+    m_Extent: {x: 1.38025, y: 1.0891, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1
@@ -79452,7 +79452,7 @@ GameObject:
   - component: {fileID: 1353400516}
   - component: {fileID: 1353400515}
   m_Layer: 5
-  m_Name: '!!CanvasUIController'
+  m_Name: CanvasUIController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89208,7 +89208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998654850}
   m_Layer: 0
-  m_Name: SceneDecor
+  m_Name: Decorations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89227,6 +89227,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1173803297}
   - {fileID: 158089181}
   - {fileID: 1240684287}
   - {fileID: 1041753512}
@@ -90675,10 +90676,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 5653314210187924419}
   - {fileID: 7522047729786899983}
-  - {fileID: 1173803297}
   - {fileID: 1760389406}
-  - {fileID: 570101724}
   - {fileID: 1353400519}
   - {fileID: 408775652}
   - {fileID: 1998654850}
+  - {fileID: 570101724}
   - {fileID: 1739412524}
