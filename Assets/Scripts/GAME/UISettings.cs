@@ -21,12 +21,64 @@ public class UISettings : MonoBehaviour
     {
 
         _closeButton.onClick.AddListener(CloseSettings);
+
         _qualityDrop.onValueChanged.AddListener(SetQuality);
+
+        _VSyncToggle.onValueChanged.AddListener(SetVSync);
+
+        _fullScreenToggle.onValueChanged.AddListener(ToggleFullScreen);
+
+        _particleResolution.onValueChanged.AddListener(SetParticleResolution);
+        _noShadowToggle.onValueChanged.AddListener(SetNoShadows);
+        _softShadowToggle.onValueChanged.AddListener(SetSoftShadows);
+        _hardShadowToggle.onValueChanged.AddListener(SetHardShadows);
 
         InitializeDropDownQuality();
     }
 
+
+
+
+
+
+
     //Private Methods
+    private void SetHardShadows(bool stateOn)
+    {
+        if (stateOn)
+            QualitySettings.shadows = ShadowQuality.HardOnly;
+
+    }
+    private void SetSoftShadows(bool stateOn)
+    {
+        if (stateOn)
+        {
+
+            QualitySettings.shadows = ShadowQuality.All; //Soft
+           
+        }
+    }
+    private void SetNoShadows(bool stateOn)
+    {
+        if(stateOn) 
+            QualitySettings.shadows = ShadowQuality.Disable;
+    }
+    private void SetParticleResolution(float level)
+    {
+        QualitySettings.particleRaycastBudget = (int)level;
+    }
+    private void ToggleFullScreen(bool screen)
+    {
+        Screen.fullScreen = !Screen.fullScreen;
+
+    }
+    private void SetVSync(bool stateOn)
+    {
+        if (stateOn)
+            QualitySettings.vSyncCount = 1;
+        else
+            QualitySettings.vSyncCount = 0;
+    }
     private void SetQuality(int index)
     {
         QualitySettings.SetQualityLevel(index, true);
